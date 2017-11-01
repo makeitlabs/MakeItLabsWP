@@ -2935,7 +2935,9 @@ html, body {
 --------------------------------------------------------------*/
 .block_btn{
 	display: block;
-	padding: 21px;
+	padding: 16px 28px;
+	color: #FFF;
+	border-radius: 3px;
 }
 #join_btn{
 	background-color: #ffa600;

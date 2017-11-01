@@ -255,8 +255,8 @@ h1{
 }
 
 h2{
-	font-size: 26px;
-	margin-bottom: 15px;
+	font-size: 32px;
+	margin-bottom: 16px;
 }
 
 h3{
@@ -279,7 +279,8 @@ h6{
 	margin-bottom: 10px;
 }
 p {
-	margin:0 0 15px;
+	margin:17px 0;
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 dfn,
@@ -1764,10 +1765,10 @@ object {
 ## Footer
 --------------------------------------------------------------*/
 #sq-colophon{
-	font-family: "Roboto Condensed", sans-serif;
-	font-size: 14px;
-	color: #7e8b93;
-	background: #2e3336;
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 17px;
+	color: #FFF;
+	background: #395cdb;
 }
 
 .sq-site-footer ul{

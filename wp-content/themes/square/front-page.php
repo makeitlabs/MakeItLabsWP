@@ -50,7 +50,6 @@ get_header();
 		}
 	} ?>
 	</div>
-	<div class="sq-banner-shadow"><img src="<?php echo get_template_directory_uri() ?>/images/banner-shadow.png"></div>
 </section>
 
 <section id="sq-featured-post-section" class="sq-section">
@@ -69,23 +68,15 @@ get_header();
 					while($query->have_posts()) : $query->the_post();
 				?>
 					<div class="sq-featured-post <?php echo 'sq-featured-post'.$i; ?>">
-						<div class="sq-featured-icon"><i class="fa <?php echo esc_attr( $square_featured_page_icon ); ?>"></i></div>
 						<h4><?php the_title(); ?></h4>
 						<div class="sq-featured-excerpt">
 						<?php 
 						if(has_excerpt()){
 							echo get_the_excerpt();
 						}else{
-							echo square_excerpt( get_the_content(), 120); 
+							echo square_excerpt( get_the_content(), 262); 
 						}?>
 						</div>
-						<?php 
-						if($square_enable_featured_link){
-							?>
-							<a href="<?php the_permalink(); ?>" class="sq-featured-readmore"><i class="fa fa-plus-square-o"></i></a>
-							<?php
-						}
-						?>
 					</div>
 				<?php
 				endwhile;

@@ -1594,17 +1594,10 @@ object {
 }
 .sq-featured-post h4{
 	position: relative;
-	margin-bottom: 30px;
-}
-.sq-featured-post h4:after{
-	content: "";
-	position: absolute;
-	height: 2px;
-	width: 25px;
-	background: #5bc2ce;
-	top: 100%;
-	left: 0;
-	margin-top:10px;
+	margin: 1em 0px .5em 0px;
+	color: #ffa600;
+	font-size: 40px;
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .sq-featured-readmore{

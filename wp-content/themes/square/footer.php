@@ -59,6 +59,10 @@
 		<div id="sq-bottom-footer">
 			<div class="sq-container sq-clearfix">
 				<div class="sq-site-info">
+					2010 - 2017&copy; MakeIt Labs
+					<span class="sep"> | </span>
+					All Rights Reserved
+					<span class="sep"> | </span>
 					<?php printf( esc_html__( 'WordPress Theme', 'square' ) ); ?>
 					<span class="sep"> | </span>
 					<?php printf( esc_html__( '%1$s by %2$s', 'square' ), '<a target="_blank" href="http://hashthemes.com/wordpress-theme/square/">Square</a>', 'Hash Themes' ); ?>

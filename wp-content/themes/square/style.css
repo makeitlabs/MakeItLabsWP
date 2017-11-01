@@ -1294,11 +1294,12 @@ object {
 }
 
 .sq-main-header{
-	background-color: #CCC;
+	background-color: rgba(36,77,127,.7);
+	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-position: top center; 
 	padding: 137px 0 65px;
-	margin-bottom: 25px;
+	margin-bottom: 96px;
 	background-size: cover;
 }
 
@@ -1432,21 +1433,16 @@ object {
 }
 
 .sq-main-navigation .current_page_item > a,
+.sq-main-navigation .current-menu-parent > a,
 .sq-main-navigation .current-menu-item > a,
 .sq-main-navigation .current_page_ancestor > a {
 	color: #395cdb;
 }
 
-.sq-menu > ul > li:hover > a:before,
-.sq-menu > ul > li.current_page_item > a:before,
-.sq-menu > ul > li.current-menu-item > a:before{
-    position: absolute;
-    top: 24px;
-    content: '';
-    width: 15px;
-    height: 2px;
-    display: block;
-    background: #ffffff;
+.sq-menu > ul > li:hover > a,
+.sq-menu > ul > li.current_page_item > a,
+.sq-menu > ul > li.current-menu-item > a{
+	color: #395cdb;
 }
 
 .sq-main-navigation ul ul li:hover > a{
@@ -1846,6 +1842,7 @@ object {
 
 .sq-site-info{
 	float: left;
+	text-align:center;
 }
 
 #sq-bottom-footer .sq-site-info a{

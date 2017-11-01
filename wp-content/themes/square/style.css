@@ -2929,3 +2929,14 @@ html, body {
 		display: block !important;
 	}
 }
+
+/*--------------------------------------------------------------
+## Custom CSS
+--------------------------------------------------------------*/
+.block_btn{
+	display: block;
+	padding: 21px;
+}
+#join_btn{
+	background-color: #ffa600;
+}

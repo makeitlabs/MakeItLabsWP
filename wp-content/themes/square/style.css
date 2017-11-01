@@ -1481,7 +1481,8 @@ object {
 }
 
 .sq-slide{
-	position: relative;
+	position: absolute;
+	top: - 100px;
 }
 
 .sq-slide-caption{
@@ -1564,6 +1565,8 @@ object {
 	margin: 0 auto;
 	display: block;
 	width: 100%;
+	background-color:rgba(36,77,127,.7);
+	background-blend-mode: multiply;
 }
 
 /*--------------------------------------------------------------
@@ -1782,7 +1785,7 @@ object {
 }
 
 .sq-site-footer a{
-	color: #7e8b93;
+	color: #FFF;
 	text-decoration: none;
 }
 
@@ -1864,7 +1867,7 @@ object {
 }
 
 .sq-site-social a:hover{
-	color: #F6F6F6;
+	color: #ffa600;
 }
 
 /*--------------------------------------------------------------

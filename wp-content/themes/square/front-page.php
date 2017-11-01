@@ -41,7 +41,7 @@ get_header();
 					</div>
 
 					<div class="sq-slide-cap-desc animated fadeInUp">
-						<?php echo esc_html( $square_slider_subtitle ); ?>
+						<?php echo $square_slider_subtitle ?>
 					</div>
 				</div>
 			<?php } ?>

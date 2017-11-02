@@ -238,6 +238,7 @@ class Frontend {
 
 		wp_enqueue_style( 'elementor-icons' );
 		wp_enqueue_style( 'font-awesome' );
+		wp_enqueue_style( 'bebas-neue' );
 		wp_enqueue_style( 'elementor-animations' );
 		wp_enqueue_style( 'elementor-frontend' );
 

@@ -10,41 +10,6 @@
 	</div><!-- #content -->
 
 	<footer id="sq-colophon" class="sq-site-footer">
-		<?php if(is_active_sidebar('square-footer1') || is_active_sidebar('square-footer2') || is_active_sidebar('square-footer3') || is_active_sidebar('square-footer4') ): ?>
-		<div id="sq-top-footer">
-			<div class="sq-container">
-				<div class="sq-top-footer sq-clearfix">
-					<div class="sq-footer sq-footer1">
-						<?php if(is_active_sidebar('square-footer1')): 
-							dynamic_sidebar('square-footer1');
-						endif;
-						?>	
-					</div>
-
-					<div class="sq-footer sq-footer2">
-						<?php if(is_active_sidebar('square-footer2')): 
-							dynamic_sidebar('square-footer2');
-						endif;
-						?>	
-					</div>
-
-					<div class="sq-footer sq-footer3">
-						<?php if(is_active_sidebar('square-footer3')): 
-							dynamic_sidebar('square-footer3');
-						endif;
-						?>	
-					</div>
-
-					<div class="sq-footer sq-footer4">
-						<?php if(is_active_sidebar('square-footer4')): 
-							dynamic_sidebar('square-footer4');
-						endif;
-						?>	
-					</div>
-				</div>
-			</div>
-		</div>
-		<?php endif; ?>
 
 		<?php if(is_active_sidebar('square-about-footer')): ?>
 		<div id="sq-middle-footer">

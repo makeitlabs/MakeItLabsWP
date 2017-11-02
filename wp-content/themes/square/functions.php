@@ -186,6 +186,14 @@ function square_fonts_url() {
 		$fonts[] = 'Roboto+Condensed:300italic,400italic,700italic,400,300,700';
 	}
 
+    if ( 'off' !== _x( 'on', 'Lato font: on or off', 'square' ) ) {
+        $fonts[] = 'Lato:400,300,600,700';
+    }
+
+    if ( 'off' !== _x( 'on', 'Raleway font: on or off', 'square' ) ) {
+        $fonts[] = 'Raleway:400,300,600,700';
+    }
+
 	/*
 	 * Translators: To add an additional character subset specific to your language,
 	 * translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
@@ -226,13 +234,15 @@ function square_scripts() {
 		wp_enqueue_script( 'square-draggabilly', get_template_directory_uri() . '/js/draggabilly.pkgd.min.js', array('jquery'), '1.3.3', true );
 		wp_enqueue_script( 'square-elastiStack', get_template_directory_uri() . '/js/elastiStack.js', array('jquery'), '1.0.0', true );
 	}
-
+	
+    wp_enqueue_script( 'gs-tweenmax', get_template_directory_uri() . '/js/TweenMax.min.js', array('jquery'), false, true );
 	wp_enqueue_script( 'square-custom', get_template_directory_uri() . '/js/square-custom.js', array('jquery'), '20150903', true );
 	
 	wp_enqueue_style( 'square-fonts', square_fonts_url(), array(), null );
 	wp_enqueue_style( 'bxslider', get_template_directory_uri() . '/css/jquery.bxslider.css', array(), '4.1.2' );
 	wp_enqueue_style( 'animate', get_template_directory_uri() . '/css/animate.css', array(), '1.0' );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css', array(), '4.6.3' );
+    wp_enqueue_style( 'bebas-neue', get_template_directory_uri() . '/css/bebas-neue.css', array(), '4.6.3' );
 	wp_enqueue_style( 'owl-carousel', get_template_directory_uri() . '/css/owl.carousel.css', array(), '1.3.3' );
 	wp_enqueue_style( 'owl-theme', get_template_directory_uri() . '/css/owl.theme.css', array(), '1.3.3' );
 	wp_enqueue_style( 'square-style', get_stylesheet_uri() );

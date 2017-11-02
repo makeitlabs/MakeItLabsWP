@@ -25,6 +25,7 @@
 	$square_sticky_header_class = ($square_sticky_header) ? ' disable-sticky' : '';
 	?>
 	<header id="sq-masthead" class="sq-site-header <?php echo esc_attr($square_header_bg.$square_sticky_header_class); ?>">
+		<div class="sq-site-header-overlay"></div>
 		<div class="sq-container sq-clearfix">
 			<div id="sq-site-branding">
 				<?php if ( get_header_image() ) : ?>

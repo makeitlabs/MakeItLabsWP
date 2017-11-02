@@ -32,8 +32,7 @@ get_header();
 		if( $square_slider_image ){
 		?>
 		<div class="sq-slide sq-slide-count<?php echo $i; ?>">
-			<img src="<?php echo esc_url( $square_slider_image ); ?>">
-			
+			<div class="sq-slide-bg" style="background-image:url(<?php echo esc_url( $square_slider_image ); ?>);"></div>
 			<?php if( $square_slider_title || $square_slider_subtitle){ ?>
 				<div class="sq-slide-caption">
 					<div class="sq-slide-cap-title animated fadeInDown">

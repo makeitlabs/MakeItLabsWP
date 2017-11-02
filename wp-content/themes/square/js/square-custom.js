@@ -56,6 +56,10 @@ jQuery(function($){
     $('.sq-toggle-nav').click(function(){
     	$('#sq-site-navigation').slideToggle();
     });
+	
+	TweenMax.to($('.sq-main-header'), .3, {backgroundColor: 'rgba(36,77,127,.7)'})
+	TweenMax.fromTo($('.sq-main-title'), .2, {css: {opacity: 0, top: '30px'}},{css: {opacity: 1, top: '10px'}, delay: .3});
+	TweenMax.to($('.sq-site-header-overlay'), .3, {opacity: 0, delay: .5, onComplete:function(){$('.sq-site-header-overlay').hide();}});
 
 });
 

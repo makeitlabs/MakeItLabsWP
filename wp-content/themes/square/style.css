@@ -1510,13 +1510,17 @@ object {
 .sq-slide-caption{
 	position: absolute;
 	top: 60%;
-	left: 50%;
+	left: 45%;
 	width: 890px;
 	margin-left: -325px;
 	padding: 10px;
 	-ms-transform: translateY(-50%); 
    	-webkit-transform: translateY(-50%); 
     transform: translateY(-50%);
+}
+.sq-slide-caption a:hover{
+	color:#FFF;
+	opacity: .9;
 }
 
 .sq-slide-cap-title{
